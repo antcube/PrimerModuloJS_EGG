@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: min(1200px, 95%);
+    margin: 0 auto;
+}
+.heading {
+    font-size: 3rem;
+    color: brown;
+    margin: 2rem 0;
+}
+p {
+    font-size: 2rem;
+    font-weight: bold;
+}
