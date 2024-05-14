@@ -7,18 +7,54 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <section class="contenedor">
+    <!-- <section class="contenedor">
         <h1 class="heading">Calculadora</h1>
 
         <p id="suma"></p>    
         <p id="resta"></p>    
         <p id="multiplicacion"></p>    
         <p id="division"></p>    
-    </section>
+    </section> -->
 
+    
+    <form id="calculator">
+        <div class="calculadora__texto">
+            <input type="text" id="display" disabled>
+        </div>
+        <div class="calculadora__btns">
+            <button id="ac" class="operator">AC</button>
+            <button id="de" class="operator">DE</button>
+            <button id="." class="operator">.</button>
+            <button id="/" class="operator">/</button>
+        </div>
+        <div class="calculadora__btns">
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="*" class="operator">*</button>
+        </div>
+        <div class="calculadora__btns">
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="-" class="operator">-</button>
+        </div>
+        <div class="calculadora__btns">
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="+" class="operator">+</button>
+        </div>
+        <div class="calculadora__btns">
+            <button id="00">00</button>
+            <button id="0">0</button>
+            <button id="=" class="equal operator">=</button>
+        </div>
+    </form>
     
 
     <!-- <script src="./app.js"></script> -->
-    <script src="math.js"></script>
+    <!-- <script src="math.js"></script> -->
+    <script src="math2.js"></script>
 </body>
 </html>
